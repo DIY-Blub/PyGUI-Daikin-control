@@ -271,6 +271,7 @@ class DaikinAC_control(object):
         print("")
 
 
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
