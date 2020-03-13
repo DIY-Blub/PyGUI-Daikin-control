@@ -4,11 +4,11 @@ This library provides a graphical user interface (GUI) based on Python3 and PyQt
 
 No air conditioner is controlled yet! There is only an output in the terminal.
 
-## Example 
+## Examples
 
 ![Example: Dialog](/.docs/example1_dialog.png?raw=true)
 
-![Example: Implementation with Widget](/.docs/example2_implementation.png?raw=true) ![Example: Implementation with Button (open Dialog)](/.docs/example3_pushbutton.png?raw=true)
+![Example: Implementation with Widget](/.docs/example2_implementation.png?raw=true)  ![Example: Implementation with Button (open Dialog)](/.docs/example3_pushbutton.png?raw=true)
 
 Inspired by the web interface of the user "ael-code": https://github.com/ael-code/daikin-control
 
@@ -30,24 +30,27 @@ Inspired by the web interface of the user "ael-code": https://github.com/ael-cod
 see Quick Start
 
 2. To your own main using a QWidget container
-
+```
 from Daikin import *
 
 DialogAC = QtWidgets.QWidget(YourMainWindow.WidgetName)
 
 DaikinGUI = DaikinAC_control()
+
 DaikinGUI.setupUI(DialogAC)
-
+```
 3. To your own main using a QPushButton
-
+```
 from Daikin import *
 
 DialogAC = QtWidgets.QDialog()
+
 DaikinGUI = DaikinAC_control()
+
 DaikinGUI.setupUI(DialogAC)
 
 YourMainWindow.PushButtonName.clicked.connect(lambda: DialogAC.show())
-
+```
 
 ### Todo: connect to a Daikin air conditioning unit
 
@@ -57,9 +60,12 @@ YourMainWindow.PushButtonName.clicked.connect(lambda: DialogAC.show())
 ## Copyright protection images
 
 The images are licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ .
+
 Authors of the images are
+
 * [Dave Gandy](https://icon-icons.com/de/pack/Font-Awesome-Icons/936)
 * [Daniel Bruce](https://icon-icons.com/de/pack/-Entypo-Icons/1238)
+
 Further information can be found in the src/images folder.
 
 ## Changelog
