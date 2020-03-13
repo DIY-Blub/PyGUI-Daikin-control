@@ -16,7 +16,8 @@ Inspired by the web interface of the user "ael-code": https://github.com/ael-cod
 
 1. `sudo apt install git python3 python3-pyqt5`
 2. `git clone https://github.com/DIY-Blub/PyGUI-Daikin-control.git`
-3. `python3 pygui-daikin-control/Daikin.py`
+3. `cd PyGUI-Daikin-control/`
+4. `python3 ./Daikin.py`
 
 ## Informations
 
