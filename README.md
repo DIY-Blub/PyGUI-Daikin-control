@@ -7,8 +7,9 @@ No air conditioner is controlled yet! There is only an output in the terminal.
 ## Example 
 
 ![Example: Dialog](/.docs/example1_dialog.png?raw=true)
-![Example: Implementation with Widget](/.docs/example2_implementation.png?raw=true)
-![Example: Implementation with Button (open Dialog)](/.docs/example3_pushbutton.png?raw=true)
+
+![Example: Implementation with Widget](/.docs/example2_implementation.png?raw=true) ![Example: Implementation with Button (open Dialog)](/.docs/example3_pushbutton.png?raw=true)
+
 Inspired by the web interface of the user "ael-code": https://github.com/ael-code/daikin-control
 
 ## Quick Start
@@ -25,9 +26,11 @@ Inspired by the web interface of the user "ael-code": https://github.com/ael-cod
 ### Implementation options
 
 1. As a standalone solution:
+
 see Quick Start
 
 2. To your own main using a QWidget container
+
 from Daikin import *
 
 DialogAC = QtWidgets.QWidget(YourMainWindow.WidgetName)
@@ -36,6 +39,7 @@ DaikinGUI = DaikinAC_control()
 DaikinGUI.setupUI(DialogAC)
 
 3. To your own main using a QPushButton
+
 from Daikin import *
 
 DialogAC = QtWidgets.QDialog()
@@ -59,5 +63,5 @@ Authors of the images are
 Further information can be found in the src/images folder.
 
 ## Changelog
-### v1.0.0 (00.00.2020)
+### v1.0.0 (13.03.2020)
 * initial release
