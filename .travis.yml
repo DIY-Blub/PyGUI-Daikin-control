@@ -16,10 +16,13 @@ before_install:
 
 install:
   - sudo apt update
-  - pip3 install configparser
+  - pip3 install configparser pytest codecov
   - pip3 install --upgrade --force-reinstall pyqt5
 
 services:
   - xvfb
 
 script: pytest Daikin.py
+
+after_success:
+  - codecov
