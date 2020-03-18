@@ -22,4 +22,4 @@ install:
 services:
   - xvfb
 
-script: python3 Daikin.py
+script: pytest Daikin.py
