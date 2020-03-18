@@ -3,9 +3,9 @@ language: python
 sudo: true
 
 python:
-#  - "3.4"
-#  - "3.5"
-#  - "3.6"
+  - "3.4"
+  - "3.5"
+  - "3.6"
   - "3.7"
   - "3.8"
 
@@ -16,13 +16,10 @@ before_install:
 
 install:
   - sudo apt update
-  - pip3 install configparser pytest codecov
+  - pip3 install configparser
   - pip3 install --upgrade --force-reinstall pyqt5
 
 services:
   - xvfb
 
-script: pytest Daikin.py
-
-after_success:
-  - codecov
+script: python3 Daikin.py
