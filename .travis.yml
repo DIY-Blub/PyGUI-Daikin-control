@@ -13,7 +13,5 @@ install:
   - sudo apt update
   - sudo apt -y install python3-pyqt5 python3-pip libegl1-mesa
   - pip3 install configparser
-  - pip3 install --upgrade --force-reinstall pyqt5
-
 
 script: python3 Daikin.py
