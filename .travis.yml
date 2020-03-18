@@ -1,6 +1,6 @@
 os: linux
 language: python
-sudo: required
+sudo: true
 
 python:
 #  - "3.4"
