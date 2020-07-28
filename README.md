@@ -72,7 +72,7 @@ Further information can be found in the src/images folder.
 ## Changelog
 ### v1.1.0 () - not yet published. Just ask and I will put it online a few days later.
 * add wings zero
-* add specials streamer & powerful-mode (pics?)
+* add specials streamer & powerful-mode (icons?)
 * add individual stylesheets
 * connection to device via MQTT and Node-RED
 * some fixes
